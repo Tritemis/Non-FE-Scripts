@@ -1,6 +1,7 @@
 Player=game:GetService("Players").LocalPlayer
 Character=Player.Character 
 char = Character
+local torso = char.Torso
 local scream = Instance.new("Sound",char.Torso)
 scream.SoundId = "rbxassetid://901030512"
 scream.Volume = 100
